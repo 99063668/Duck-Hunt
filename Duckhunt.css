@@ -4,14 +4,17 @@ body{
 }
 
 #duck { 
-    cursor: pointer;
     position: absolute; 
     top: 0px; 
     left: 0px; 
+    right: 0px;
+    bottom: 0px;
     transition: all 1s;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: none;
     outline:none;
+    max-width: 100px;
+    max-height: 100px;
   }
