@@ -6,6 +6,7 @@ var timing = setInterval(moveduck, 5000);
 var button1 = document.getElementById("button1");
 var button2 = document.getElementById("button2");
 
+
 function movedog(){
   var move=document.getElementById('dogwalk').offsetTop;
   move= move +1;

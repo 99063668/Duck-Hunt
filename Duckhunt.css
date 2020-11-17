@@ -1,6 +1,8 @@
 body{
     background: url("images/stage.png") no-repeat center center fixed; 
     background-size: cover;
+    max-width: 1250;
+    max-height: 769;
 }
 
 #duck { 
@@ -73,3 +75,11 @@ a{
     top:0;
     right:0;
 } 
+
+.level{
+    text-align: center;
+}
+
+p{
+    text-align: left;
+}
