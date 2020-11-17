@@ -6,10 +6,6 @@ body{
 #duck { 
     cursor: url("images/zapper.png"), auto;
     position: absolute; 
-    top: 0px; 
-    left: 0px; 
-    right: 0px;
-    bottom: 0px;
     transition: all 1s;
     display: block;
     margin-left: auto;
@@ -18,4 +14,62 @@ body{
     outline:none;
     max-width: 100px;
     max-height: 100px;
-  }
+}
+
+#duck2{
+    cursor: url("images/zapper.png"), auto;
+    position: absolute; 
+    transition: all 1s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline:none;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#dog{
+    cursor: url("images/zapper.png"), auto;
+    position: absolute; 
+    max-width: 50px;
+    max-height: 50px;
+    left: 40px;
+    bottom: 150px;
+    border: none;
+    outline:none;
+}
+
+#dogwalk{
+    cursor: url("images/zapper.png"), auto;
+    position: absolute; 
+    max-width: 100px;
+    max-height: 100px;
+    right: 0px;
+    bottom: 15px;
+    border: none;
+    outline:none;
+}
+
+html{
+    cursor: url("images/zapper.png"), auto;
+}
+
+#replay{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    top: 20px;
+    right:0;
+}
+
+a{ 
+    color: inherit;
+    text-decoration: none;
+    position:absolute;
+    top:0;
+    right:0;
+} 
