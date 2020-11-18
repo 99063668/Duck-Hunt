@@ -3,8 +3,6 @@ duck.style.position = 'relative';
 var score = 0
 var timing2 = setInterval(movedog, 8000);
 var timing = setInterval(moveduck, 5000);
-var button1 = document.getElementById("button1");
-var button2 = document.getElementById("button2");
 
 
 function movedog(){
@@ -33,8 +31,6 @@ var miss = 0
 var hit = 0
 var count = 0
 var timing = setInterval(moveduck, 5000);
-var button1 = document.getElementById("button1");
-var button2 = document.getElementById("button2");
 
 
 function moveduck() {
@@ -50,7 +46,6 @@ function moveduck() {
   duck.style.bottom = bottom + 'px';
   duck.style.vertical = vertical + 'px';
   duck.style.horizontal = horizontal + 'px';
- 
 };
 
 function showBoard(){

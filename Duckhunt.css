@@ -3,7 +3,7 @@ body{
     background-size: cover;
 }
 
-#duck { 
+#duck{ 
     cursor: url("images/zapper.png"), auto;
     position: absolute; 
     transition: all 1s;
