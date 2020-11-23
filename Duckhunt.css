@@ -4,7 +4,7 @@ body{
 }
 
 #duck{ 
-    cursor: url("images/zapper.png"), auto;
+    
     position: absolute; 
     transition: all 1s;
     display: block;
@@ -17,7 +17,7 @@ body{
 }
 
 #duck2{
-    cursor: url("images/zapper.png"), auto;
+    
     position: absolute; 
     transition: all 1s;
     display: block;
@@ -27,32 +27,6 @@ body{
     outline:none;
     max-width: 100px;
     max-height: 100px;
-}
-
-#dog{
-    cursor: url("images/zapper.png"), auto;
-    position: absolute; 
-    max-width: 50px;
-    max-height: 50px;
-    left: 40px;
-    bottom: 150px;
-    border: none;
-    outline:none;
-}
-
-#dogwalk{
-    cursor: url("images/zapper.png"), auto;
-    position: absolute; 
-    max-width: 100px;
-    max-height: 100px;
-    right: 0px;
-    bottom: 15px;
-    border: none;
-    outline:none;
-}
-
-html{
-    cursor: url("images/zapper.png"), auto;
 }
 
 #replay{
@@ -75,6 +49,10 @@ a{
 } 
 
 .level{
+    text-align: center;
+}
+
+#score3{
     text-align: center;
 }
 
