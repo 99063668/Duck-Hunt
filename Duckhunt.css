@@ -4,7 +4,6 @@ body{
 }
 
 #duck{ 
-    
     position: absolute; 
     transition: all 1s;
     display: block;
@@ -17,7 +16,6 @@ body{
 }
 
 #duck2{
-    
     position: absolute; 
     transition: all 1s;
     display: block;
