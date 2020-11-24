@@ -17,19 +17,7 @@ p{
 
 
 #duck{ 
-    position: absolute; 
-    transition: all 1s;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
-    outline:none;
-    max-width: 100px;
-    max-height: 100px;
-}
-
-#duck2{
-    position: absolute; 
+    position: relative; 
     transition: all 1s;
     display: block;
     margin-left: auto;
