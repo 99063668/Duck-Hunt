@@ -3,6 +3,19 @@ body{
     background-size: cover;
 }
 
+a{ 
+    color: inherit;
+    text-decoration: none;
+    position:absolute;
+    top:0;
+    right:0;
+} 
+
+p{
+    text-align: left;
+}
+
+
 #duck{ 
     position: absolute; 
     transition: all 1s;
@@ -38,22 +51,11 @@ body{
     right:0;
 }
 
-a{ 
-    color: inherit;
-    text-decoration: none;
-    position:absolute;
-    top:0;
-    right:0;
-} 
-
-.level{
-    text-align: center;
-}
-
 #score3{
     text-align: center;
 }
 
-p{
-    text-align: left;
+
+.level{
+    text-align: center;
 }
