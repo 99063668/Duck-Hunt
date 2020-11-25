@@ -77,15 +77,16 @@ if(e.target.id === 'duck'){
   miss++
   score1++
   document.getElementById('score1').innerHTML = score1
-  }
+}
 })
 
-//Laat eend in beeld
+
+//Laat de eend in beeld
 /*function inscreen(){
-  if(){
+  if(moveduck == ){
 
   }
   else{
-
+    moveduck()
   }
 }*/
