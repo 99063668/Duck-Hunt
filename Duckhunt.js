@@ -66,6 +66,16 @@ if(score + score1 == 20){
   document.getElementById('score3').innerHTML = 'Game Over!'
   showBoard()
 }
+/*
+if(score > score1){
+  document.getElementById('score4').innerHTML = 'You Win!'
+  showBoard()
+}
+
+if(score < score1){
+  document.getElementById('score4').innerHTML = 'You Lose!'
+  showBoard()
+}*/
 
 if(e.target.id === 'duck'){
   hit++
