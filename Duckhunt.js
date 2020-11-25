@@ -18,19 +18,19 @@ switch(array){
     score++
     break;
 
-    case 1:
+  case 1:
     var left = Math.floor(Math.random() * 750);
     duck.style.left = left + 'px';
     score++
     break;
 
-    case 2:
+  case 2:
     var right = Math.floor(Math.random() * 750);
     duck.style.right = right + 'px';
     score++
     break;
 
-    case 3:
+  case 3:
     var bottom = Math.floor(Math.random() * 750);
     duck.style.bottom = bottom + 'px';
     score++
@@ -67,15 +67,25 @@ if(score + score1 == 20){
   showBoard()
 }
 
-if (e.target.id === 'duck'){
+if(e.target.id === 'duck'){
   hit++
   score+ 1;
   moveduck()
   document.getElementById('score').innerHTML = score
 
-}else {
+}else{
   miss++
   score1++
   document.getElementById('score1').innerHTML = score1
   }
 })
+
+//Laat eend in beeld
+/*function inscreen(){
+  if(){
+
+  }
+  else{
+
+  }
+}*/
